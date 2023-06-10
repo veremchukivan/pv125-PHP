@@ -30,6 +30,9 @@
                             <a href='/delete.php?id=$row[0]' class='text-danger' data-delete>
                                 <i class='bi bi-x'></i>
                             </a>
+                             <a href='/edit.php?id=$row[0]' class='text-danger'>
+                                 <i class='bi bi-pen-fill'> </i>
+                            </a>
                         </td>
                     </tr>
                     ";
